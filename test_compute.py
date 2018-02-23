@@ -1,5 +1,6 @@
 from compute import divide
 from compute import multiply
+import numpy as np
 
 def test_divide():
     x = divide(1,2)
