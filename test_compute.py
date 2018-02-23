@@ -7,4 +7,7 @@ def test_divide():
 
 def test_multiply():
     x = multiply(2,2)
-    assert x == 4    
+    assert x == 4 
+
+def test_divide_zero():
+    assert np.isinf(divide(1,0))       
